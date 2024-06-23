@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       effect:
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: 3.3.5
+        version: 3.3.5
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.4.5
@@ -591,8 +591,8 @@ packages:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  effect@3.4.0:
-    resolution: {integrity: sha512-dBufbmIyeOi8Wog8kJUrpCIvVs/GcGMimtd6JIXhRIKdRLrVho9og/28sJmKjxHM+PG9Bn3t9XehcM3YfCB8og==}
+  effect@3.3.5:
+    resolution: {integrity: sha512-ehDpb+3zRTYsCqDWY32rT4oxtG0BJ797+HSog+FPjiWKjNxnPgpslUIQha8CoxqFZln2ZeBRv00tzGIhUAQKsw==}
 
   esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}
@@ -1444,7 +1444,7 @@ snapshots:
 
   diff-sequences@29.6.3: {}
 
-  effect@3.4.0: {}
+  effect@3.3.5: {}
 
   esbuild@0.17.19:
     optionalDependencies:

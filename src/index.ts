@@ -17,6 +17,6 @@ export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const program = Console.log('Hello, World!');
 		Effect.runSync(program);
-		return new Response('Hello World!');
+		return Effect.runPromise(Effect.succeed(new Response('Hello World!')));
 	},
 } satisfies ExportedHandler<Env>;
