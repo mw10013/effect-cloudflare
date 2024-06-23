@@ -11,8 +11,12 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+import { Effect, Console } from 'effect';
+
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
+		const program = Console.log('Hello, World!');
+		Effect.runSync(program);
 		return new Response('Hello World!');
 	},
 } satisfies ExportedHandler<Env>;
